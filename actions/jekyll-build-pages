@@ -1,1 +1,5 @@
-
+- name: Jekyll Build and Deploy
+  uses: actions/jekyll-build-pages@v1
+  with:
+    source: .
+    destination: ./docs
